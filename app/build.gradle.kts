@@ -11,8 +11,8 @@ android {
         applicationId = "com.refactoringlife.linternapp"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 5
+        versionName = "3.1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -66,5 +66,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-    implementation ("com.google.android.gms:play-services-ads:21.0.0")
+    implementation ("com.google.android.gms:play-services-ads:23.6.0")
+    implementation("androidx.fragment:fragment:1.5.7")
 }
